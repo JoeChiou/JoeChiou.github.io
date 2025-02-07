@@ -1,0 +1,177 @@
+.firstBlock {
+  /* @todo: image */
+  background-image: url('/images/sample-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 318.83px 318.83px;
+  background-color: var(--Grey);
+}
+
+@media screen and (max-width: 576px) {
+  .firstBlock {
+    background-position: center top 87px;
+
+    >div {
+      margin: auto auto 111px 23px;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      .title {
+        font-family: Oswald;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 115%;
+        letter-spacing: 0%;
+      }
+
+      .text {
+        font-family: PoppinsBold;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 120%;
+        letter-spacing: 0%;
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+
+  .firstBlock {
+    background-position: center top 60px;
+
+    >div {
+      margin: auto auto 111px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      .title {
+        font-family: Oswald;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 115%;
+        letter-spacing: 0%;
+      }
+
+      .text {
+        font-family: PoppinsBold;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 120%;
+        letter-spacing: 0%;
+      }
+
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .firstBlock>div {
+    margin: auto auto 111px 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    .title {
+      font-family: Oswald;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 115%;
+      letter-spacing: 0%;
+    }
+
+    .text {
+      font-family: PoppinsBold;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .firstBlock>div {
+    margin: auto auto 111px 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    .title {
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 115%;
+      letter-spacing: 0%;
+    }
+
+    .text {
+      font-family: PoppinsBold;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
+  .firstBlock>div {
+    margin: auto auto 111px 101px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    .title {
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 115%;
+      letter-spacing: 0%;
+    }
+
+    .text {
+      font-family: PoppinsBold;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .firstBlock>div {
+    margin: auto auto 111px 101px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    .title {
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 115%;
+      letter-spacing: 0%;
+    }
+
+    .text {
+      font-family: PoppinsBold;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 120%;
+      letter-spacing: 0%;
+    }
+
+  }
+}

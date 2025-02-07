@@ -1,0 +1,226 @@
+@media screen and (max-width: 375px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: none;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 121px;
+    height: 27px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 121px;
+    height: 27px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 154px;
+    height: 35px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+  .storeButton {
+    background-color: var(--Pink);
+    color: var(--White);
+
+    &:focus {
+      box-shadow: 0 0 1px 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Pink);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 162px;
+    height: 43px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 162px;
+    height: 43px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .button {
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: none;
+  }
+
+  .defaultButton {
+    background-color: var(--Blue);
+    color: var(--White);
+    border-width: 0;
+    width: 162px;
+    height: 43px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 1px var(--White);
+    }
+
+    &:hover {
+      background-color: var(--White);
+      color: var(--Blue);
+      border-width: 0;
+    }
+  }
+
+}
+
+.storeButton {
+  background-color: var(--Pink);
+  color: var(--White);
+
+  &:hover {
+    background-color: var(--White);
+    color: var(--Pink);
+  }
+}
+
+.greyButton {
+  background-color: var(--Grey);
+  color: var(--White);
+
+  &:hover {
+    background-color: var(--White);
+    color: var(--Grey);
+  }
+}
