@@ -33,8 +33,8 @@ export const PageMain = () => {
           <div className="mobile">
             <div className="text">Download TableTone's mobile app</div>
             <span>
-              <a><img src={'/images/google_play.png'} style={{ width: '136px', height: '40px' }} /></a>
-              <a><img src={'/images/apple_store.png'} style={{ width: '120px', height: '40px' }} /></a>
+              <a><img src={'./images/google_play.png'} style={{ width: '136px', height: '40px' }} /></a>
+              <a><img src={'./images/apple_store.png'} style={{ width: '120px', height: '40px' }} /></a>
             </span>
           </div>
         </span>
